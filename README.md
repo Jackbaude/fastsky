@@ -1,6 +1,6 @@
 # FastSky - GPU-Accelerated Real-Time Satellite Tracker
 
-![FastSky](img.png)
+![FastSky](image.png)
 
 Real-time satellite tracking using dsgp4 with CUDA GPU batch propagation. Processes 1M+ satellites/second on RTX 4090 at 100 Hz refresh rate.
 
