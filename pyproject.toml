@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastsky"
+version = "0.1.0"
+description = "Demo project using dsgp4 for satellite tracking"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dsgp4 = "*"
+numpy = "^1.24.0"
+httpx = "^0.27.0"
+rich = "^14.2.0"
+
+[tool.poetry.group.dev.dependencies]
+skyfield = "^1.53"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
